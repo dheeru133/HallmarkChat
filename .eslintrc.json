@@ -1,0 +1,35 @@
+{
+    "extends": "airbnb",
+    "plugins": ["html"],
+    "settings": {
+        "html/html-extensions": [".html", ".we"],
+        "html/indent": "tab"
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mongo": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module",
+        "ecmaversion": 6
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "no-console": "warn",
+        "indent": "off",
+        "eol-last": "off"
+
+    }
+}
