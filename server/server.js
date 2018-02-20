@@ -2,7 +2,7 @@
  * @Author: Dheeraj Chaudhary 
  * @Date: 2018-02-15 23:59:37 
  * @Last Modified by: Dheeraj.Chaudhary@contractor.hallmark.com
- * @Last Modified time: 2018-02-19 14:11:58
+ * @Last Modified time: 2018-02-20 12:19:42
  */
 // Express application configuration
 const path = require('path');
@@ -78,3 +78,14 @@ io.on('connection', (socket) => {
     });
 
 });
+
+
+
+
+
+// Package json modification PROD deployment
+// "@types/express": "^4.11.1",
+// "@types/jquery": "^3.3.0",
+// "@types/moment": "^2.13.0",
+// "@types/node": "^9.4.6",
+// "@types/socket.io": "^1.4.31",
